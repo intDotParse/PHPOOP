@@ -31,11 +31,4 @@ class UserModel{
     }
 
 }
-//test
-$user = new UserModel();
-$user->name = "Art";
-$user->email = "a@yahoo.com";
-$user->username = "artuser";
-$user->password  = "test123";
-echo $user->insert();
 ?>
